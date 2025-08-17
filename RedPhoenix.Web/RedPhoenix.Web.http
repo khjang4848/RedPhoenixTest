@@ -1,0 +1,6 @@
+@RedPhoenix.Web_HostAddress = http://localhost:5176
+
+GET {{RedPhoenix.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

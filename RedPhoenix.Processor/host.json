@@ -1,0 +1,19 @@
+{
+  "version": "2.0",
+  "logging": {
+    "logLevel": {
+      "Function": "Information" // Warning level from all Functions (except the ones configured below).
+    },
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": false,
+        "excludedTypes": "Request"
+      },
+      "enableDependencyTracking": true,
+      "dependencyTrackingOptions": {
+        "enableSqlCommandTextInstrumentation": true
+      },
+      "enableLiveMetricsFilters": false
+    }
+  }
+}
